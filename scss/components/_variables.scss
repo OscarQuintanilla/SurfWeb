@@ -1,0 +1,18 @@
+// Fuentes
+$font_glass_houses: url("../src/fonts/glashou.ttf");
+$font_bahnschrift: url("../src/fonts/bahnschrift.ttf");
+
+@font-face {
+  font-family: "glas";
+  src: $font_glass_houses;
+}
+
+@font-face {
+  font-family: "bahn";
+  src: $font_bahnschrift;
+}
+
+// Imagenes
+$banner_480px: url("../src/images/banner_small.jpg");
+$banner_960px: url("../src/images/banner_med.jpg");
+$banner_1280px: url("../src/images/banner_big.jpg");

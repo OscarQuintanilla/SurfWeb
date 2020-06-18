@@ -1,0 +1,66 @@
+//@import "Mixins";
+@import "variables";
+
+.landingBanner {
+  background: {
+    image: $banner_480px;
+    size: cover;
+  }
+  width: 100%;
+  font-family: "bahn";
+  font-size: 10em;
+  text-shadow: 0px 0px 1em #000;
+  text-align: center;
+  padding: 0.5em 0em 1em;
+  @media (min-width: 760px) {
+    background: {
+      image: $banner_960px;
+      size: cover;
+    }
+    float: left;
+  }
+  @media (min-width: 1280px) {
+    background: {
+      image: $banner_1280px;
+      size: cover;
+    }
+    box-sizing: border-box;
+    padding: 40vh;
+  }
+}
+
+.imgLogo {
+  margin: 2vh auto;
+  width: 50%;
+  @media (min-width: 760px) {
+    width: 70%;
+    float: left;
+    margin: 20vh auto;
+    margin-right: 50vw;
+  }
+}
+
+.brandName {
+  color: #fff;
+  line-height: 0.8em;
+  @media (min-width: 760px) {
+    margin-top: 25vh;
+    float: right;
+  }
+  @media (min-width: 1280px) {
+    line-height: 0.3em;
+    margin-top: 40vh;
+    margin-left: 50vw;
+    float: LEFT;
+  }
+}
+
+.brandLogo {
+  @media (min-width: 760px) {
+    float: right;
+  }
+}
+
+.brandName > p:nth-child(2) {
+  font-size: 0.7em;
+}

@@ -1,0 +1,18 @@
+@import "components/LandingBanner";
+@import "components/Welcome";
+@import "components/Surfers";
+@import "components/Awards";
+@import "components/Gallery";
+@import "components/Contacto";
+@import "components/Footer";
+@import "components/Nav";
+body {
+  margin: 0;
+  font-family: "bahn";
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  zoom: 0.4;
+}

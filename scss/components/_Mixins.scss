@@ -1,0 +1,23 @@
+@import "variables";
+
+@mixin background($imgSmall, $imgMed) {
+  @media (min-width: 480px) {
+    background: {
+      image: $imgMed;
+    }
+  }
+  @media (max-width: 480px) {
+    background: {
+      image: $imgSmall;
+    }
+  }
+}
+
+@mixin button {
+  color: #fff;
+  width: 80%;
+  font-size: 4em;
+  margin: auto;
+  padding: 0.5em 2em;
+  background-color: #000;
+}

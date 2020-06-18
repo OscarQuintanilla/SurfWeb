@@ -1,0 +1,40 @@
+@import "Mixins";
+
+.welcome {
+  font-family: "bahn";
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 5em;
+  @media (min-width: 760px) {
+    margin: auto;
+    width: 45%;
+  }
+}
+
+.title {
+  padding: 1em 1em 0em;
+  text-align: center;
+  font-size: 7em;
+  color: black;
+  line-height: 1.4em;
+  font-weight: bolder;
+  @media (min-width: 760px) {
+    float: left;
+  }
+}
+
+.descripcion {
+  padding: 0em 2em;
+  text-align: justify;
+  font-size: 3em;
+}
+
+.imgOla {
+  padding: 0em 3em;
+  width: 100%;
+  line-height: 0.5em;
+}
+
+.button {
+  @include button;
+}

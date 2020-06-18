@@ -1,0 +1,55 @@
+@import "Mixins";
+
+.separador {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.titleContact {
+  font-size: 6em;
+  text-transform: bolder;
+  color: #000;
+  font-family: "bahn";
+  padding: 0.5em 0em;
+}
+
+.espumaSeparador {
+  max-height: 10vh;
+  position: relative;
+  width: 175%;
+  @media (min-width: 760px) {
+    max-height: 25vh;
+  }
+  @media (min-width: 1280px) {
+    max-height: 50vh;
+  }
+}
+
+.form-case {
+  text-align: center;
+  width: 100%;
+  @media (min-width: 760px) {
+    width: 50%;
+    float: left;
+    margin: auto;
+  }
+}
+
+.inform {
+  border: solid 5px #003e44;
+  margin: 1em;
+  padding: 1em;
+  font-size: 2em;
+  width: 80%;
+}
+
+.imgOla2 {
+  padding: 0em 3em;
+  margin: 0vh 20vw;
+  width: 35%;
+  line-height: 0.5em;
+}

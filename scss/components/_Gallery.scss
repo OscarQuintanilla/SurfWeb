@@ -1,0 +1,48 @@
+@import "Mixins";
+
+.gallery {
+  background-color: #fff;
+  padding: 2em 4em 10em;
+  @media (min-width: 760px) {
+    padding: 5% 10%;
+    float: left;
+  }
+}
+
+.titleGallery {
+  text-transform: bolder;
+  font-size: 6em;
+  text-align: right;
+  margin-bottom: 1em;
+  @media (min-width: 720px) {
+    margin-right: 3%;
+    font-weight: bolder;
+  }
+}
+
+.galPicture {
+  text-align: center;
+  margin: 1.5em 0em;
+  width: 100%;
+  @media (min-width: 760px) {
+    width: 29%;
+    float: left;
+    margin: 1% 2%;
+  }
+}
+
+.gallery > .galPicture:nth-child(6),
+.gallery > .galPicture:nth-child(7) {
+  display: none;
+  @media (min-width: 760px) {
+    display: block;
+    margin-bottom: 10%;
+  }
+}
+
+.gallerypic {
+  width: 60%;
+  @media (min-width: 760px) {
+    width: 100%;
+  }
+}

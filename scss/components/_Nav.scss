@@ -1,0 +1,30 @@
+@import "variables";
+
+.nav {
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 15vh;
+  display: none;
+  @media (min-width: 1280px) {
+    display: block;
+  }
+}
+
+.nav > .ul {
+  list-style: none;
+}
+
+.nav > ul > li {
+  text-align: center;
+  font-family: "bahn";
+  font-size: 4em;
+  padding: 5vh 0vh;
+  float: left;
+  list-style: none;
+  width: 20%;
+  z-index: 1;
+}

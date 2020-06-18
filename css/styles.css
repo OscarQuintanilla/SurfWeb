@@ -1,0 +1,417 @@
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.landingBanner {
+  background-image: url("../src/images/banner_small.jpg");
+  background-size: cover;
+  width: 100%;
+  font-family: "bahn";
+  font-size: 10em;
+  text-shadow: 0px 0px 1em #000;
+  text-align: center;
+  padding: 0.5em 0em 1em; }
+  @media (min-width: 760px) {
+    .landingBanner {
+      background-image: url("../src/images/banner_med.jpg");
+      background-size: cover;
+      float: left; } }
+  @media (min-width: 1280px) {
+    .landingBanner {
+      background-image: url("../src/images/banner_big.jpg");
+      background-size: cover;
+      box-sizing: border-box;
+      padding: 40vh; } }
+
+.imgLogo {
+  margin: 2vh auto;
+  width: 50%; }
+  @media (min-width: 760px) {
+    .imgLogo {
+      width: 70%;
+      float: left;
+      margin: 20vh auto;
+      margin-right: 50vw; } }
+
+.brandName {
+  color: #fff;
+  line-height: 0.8em; }
+  @media (min-width: 760px) {
+    .brandName {
+      margin-top: 25vh;
+      float: right; } }
+  @media (min-width: 1280px) {
+    .brandName {
+      line-height: 0.3em;
+      margin-top: 40vh;
+      margin-left: 50vw;
+      float: LEFT; } }
+
+@media (min-width: 760px) {
+  .brandLogo {
+    float: right; } }
+
+.brandName > p:nth-child(2) {
+  font-size: 0.7em; }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.welcome {
+  font-family: "bahn";
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 5em; }
+  @media (min-width: 760px) {
+    .welcome {
+      margin: auto;
+      width: 45%; } }
+
+.title {
+  padding: 1em 1em 0em;
+  text-align: center;
+  font-size: 7em;
+  color: black;
+  line-height: 1.4em;
+  font-weight: bolder; }
+  @media (min-width: 760px) {
+    .title {
+      float: left; } }
+
+.descripcion {
+  padding: 0em 2em;
+  text-align: justify;
+  font-size: 3em; }
+
+.imgOla {
+  padding: 0em 3em;
+  width: 100%;
+  line-height: 0.5em; }
+
+.button {
+  color: #fff;
+  width: 80%;
+  font-size: 4em;
+  margin: auto;
+  padding: 0.5em 2em;
+  background-color: #000; }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.surfers {
+  background-image: url("../src/images/bkolas.jpg");
+  background-size: auto 100%;
+  font-family: "bahn";
+  text-shadow: 0px 0px 1em #000;
+  text-align: center;
+  padding: 3em 5em;
+  color: #fff; }
+  @media (min-width: 760px) {
+    .surfers {
+      background-size: 100%;
+      padding: 10vw 30vw;
+      float: left; } }
+
+.sectionTitle {
+  font-size: 6em;
+  text-align: left;
+  margin-bottom: 1em; }
+
+.nombreSurfer {
+  margin: 2em;
+  font-size: 3.5em; }
+  @media (min-width: 760px) {
+    .nombreSurfer {
+      margin: 0px; } }
+
+.imgSurfer {
+  width: 50%; }
+  @media (min-width: 760px) {
+    .imgSurfer {
+      width: 20%;
+      float: right; } }
+
+.biografiaSurfer {
+  text-align: justify;
+  padding: 1em 2em 3em;
+  font-size: 2.5em; }
+  @media (min-width: 760px) {
+    .biografiaSurfer {
+      float: right;
+      width: 70%; } }
+  @media (min-width: 1280px) {
+    .biografiaSurfer {
+      padding-left: 30%;
+      box-sizing: border-box;
+      float: left;
+      width: 70%; } }
+
+.nombreSurfer2 {
+  color: #000;
+  margin: 2em;
+  font-size: 3.5em; }
+  @media (min-width: 760px) {
+    .nombreSurfer2 {
+      margin: 0px; } }
+
+.imgSurfer2 {
+  width: 50%; }
+  @media (min-width: 760px) {
+    .imgSurfer2 {
+      position: relative;
+      width: 20%;
+      float: left; } }
+  @media (min-width: 1280px) {
+    .imgSurfer2 {
+      width: 100%;
+      width: 20%;
+      float: right; } }
+
+.biografiaSurfer2 {
+  color: #000;
+  text-align: justify;
+  padding: 1em 2em 3em;
+  font-size: 2.5em; }
+  @media (min-width: 760px) {
+    .biografiaSurfer2 {
+      float: left;
+      width: 70%; } }
+  @media (min-width: 1280px) {
+    .biografiaSurfer2 {
+      padding-left: 30%;
+      box-sizing: border-box;
+      float: left;
+      width: 70%; } }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.awards {
+  font-family: "bahn";
+  text-align: center;
+  background-color: #003e44; }
+  @media (min-width: 760px) {
+    .awards {
+      width: 100%;
+      float: left;
+      margin-bottom: 0vh; } }
+
+.titleAwards {
+  color: #fff;
+  line-height: 1em;
+  font-weight: bold;
+  font-family: "bahn";
+  font-size: 7em;
+  padding: 1em 1em 0em; }
+
+.competitions {
+  padding: 2em;
+  width: 100%; }
+  @media (min-width: 760px) {
+    .competitions {
+      margin: 5% auto;
+      width: 30%;
+      float: left;
+      position: relative; } }
+
+.poster {
+  width: 60%; }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.gallery {
+  background-color: #fff;
+  padding: 2em 4em 10em; }
+  @media (min-width: 760px) {
+    .gallery {
+      padding: 5% 10%;
+      float: left; } }
+
+.titleGallery {
+  text-transform: bolder;
+  font-size: 6em;
+  text-align: right;
+  margin-bottom: 1em; }
+  @media (min-width: 720px) {
+    .titleGallery {
+      margin-right: 3%;
+      font-weight: bolder; } }
+
+.galPicture {
+  text-align: center;
+  margin: 1.5em 0em;
+  width: 100%; }
+  @media (min-width: 760px) {
+    .galPicture {
+      width: 29%;
+      float: left;
+      margin: 1% 2%; } }
+
+.gallery > .galPicture:nth-child(6),
+.gallery > .galPicture:nth-child(7) {
+  display: none; }
+  @media (min-width: 760px) {
+    .gallery > .galPicture:nth-child(6),
+    .gallery > .galPicture:nth-child(7) {
+      display: block;
+      margin-bottom: 10%; } }
+
+.gallerypic {
+  width: 60%; }
+  @media (min-width: 760px) {
+    .gallerypic {
+      width: 100%; } }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.separador {
+  overflow-x: hidden;
+  width: 100%; }
+
+.contacto {
+  text-align: center; }
+
+.titleContact {
+  font-size: 6em;
+  text-transform: bolder;
+  color: #000;
+  font-family: "bahn";
+  padding: 0.5em 0em; }
+
+.espumaSeparador {
+  max-height: 10vh;
+  position: relative;
+  width: 175%; }
+  @media (min-width: 760px) {
+    .espumaSeparador {
+      max-height: 25vh; } }
+  @media (min-width: 1280px) {
+    .espumaSeparador {
+      max-height: 50vh; } }
+
+.form-case {
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 760px) {
+    .form-case {
+      width: 50%;
+      float: left;
+      margin: auto; } }
+
+.inform {
+  border: solid 5px #003e44;
+  margin: 1em;
+  padding: 1em;
+  font-size: 2em;
+  width: 80%; }
+
+.imgOla2 {
+  padding: 0em 3em;
+  margin: 0vh 20vw;
+  width: 35%;
+  line-height: 0.5em; }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+footer {
+  background-color: #003e44;
+  text-align: center;
+  width: 100%;
+  float: left; }
+
+footer > div > ul {
+  width: 100%;
+  list-style: none;
+  float: left; }
+
+footer > div > ul > li {
+  float: left;
+  list-style: none;
+  width: 12%;
+  margin: 2%;
+  position: relative;
+  background-color: #003e44; }
+
+.brandfooter {
+  margin: 2em; }
+
+@font-face {
+  font-family: "glas";
+  src: url("../src/fonts/glashou.ttf"); }
+
+@font-face {
+  font-family: "bahn";
+  src: url("../src/fonts/bahnschrift.ttf"); }
+
+.nav {
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 15vh;
+  display: none; }
+  @media (min-width: 1280px) {
+    .nav {
+      display: block; } }
+
+.nav > .ul {
+  list-style: none; }
+
+.nav > ul > li {
+  text-align: center;
+  font-family: "bahn";
+  font-size: 4em;
+  padding: 5vh 0vh;
+  float: left;
+  list-style: none;
+  width: 20%;
+  z-index: 1; }
+
+body {
+  margin: 0;
+  font-family: "bahn";
+  width: 100%;
+  overflow-x: hidden; }
+
+html {
+  zoom: 0.4; }
