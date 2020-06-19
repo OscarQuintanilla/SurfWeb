@@ -10,7 +10,7 @@
   background-image: url("../src/images/banner_small.jpg");
   background-size: cover;
   width: 100%;
-  font-family: "bahn";
+  font-family: "glas";
   font-size: 10em;
   text-shadow: 0px 0px 1em #000;
   text-align: center;
@@ -67,6 +67,7 @@
   src: url("../src/fonts/bahnschrift.ttf"); }
 
 .welcome {
+  background-color: #fff;
   font-family: "bahn";
   font-size: 1em;
   text-align: center;
@@ -74,7 +75,8 @@
   @media (min-width: 760px) {
     .welcome {
       margin: auto;
-      width: 45%; } }
+      padding: 5% 25%;
+      width: 50%; } }
 
 .title {
   padding: 1em 1em 0em;
@@ -116,12 +118,19 @@
 .surfers {
   background-image: url("../src/images/bkolas.jpg");
   background-size: auto 100%;
+  background-repeat: no-reapeat;
   font-family: "bahn";
   text-shadow: 0px 0px 1em #000;
   text-align: center;
   padding: 3em 5em;
-  color: #fff; }
+  color: #fff;
+  float: left; }
   @media (min-width: 760px) {
+    .surfers {
+      background-size: 100% 100%;
+      padding: 10vw 30vw;
+      float: left; } }
+  @media (min-width: 1280px) {
     .surfers {
       background-size: 100%;
       padding: 10vw 30vw;
@@ -137,7 +146,8 @@
   font-size: 3.5em; }
   @media (min-width: 760px) {
     .nombreSurfer {
-      margin: 0px; } }
+      margin: 0px;
+      padding-right: 30%; } }
 
 .imgSurfer {
   width: 50%; }
@@ -153,13 +163,13 @@
   @media (min-width: 760px) {
     .biografiaSurfer {
       float: right;
-      width: 70%; } }
+      width: 60%; } }
   @media (min-width: 1280px) {
     .biografiaSurfer {
       padding-left: 30%;
       box-sizing: border-box;
       float: left;
-      width: 70%; } }
+      width: 80%; } }
 
 .nombreSurfer2 {
   color: #000;
@@ -167,7 +177,8 @@
   font-size: 3.5em; }
   @media (min-width: 760px) {
     .nombreSurfer2 {
-      margin: 0px; } }
+      margin: 0px;
+      padding-right: 50%; } }
 
 .imgSurfer2 {
   width: 50%; }
@@ -178,9 +189,8 @@
       float: left; } }
   @media (min-width: 1280px) {
     .imgSurfer2 {
-      width: 100%;
       width: 20%;
-      float: right; } }
+      float: left; } }
 
 .biografiaSurfer2 {
   color: #000;
@@ -190,13 +200,17 @@
   @media (min-width: 760px) {
     .biografiaSurfer2 {
       float: left;
-      width: 70%; } }
+      padding-right: 0;
+      width: 60%; } }
   @media (min-width: 1280px) {
     .biografiaSurfer2 {
-      padding-left: 30%;
+      padding-left: 10%;
       box-sizing: border-box;
       float: left;
-      width: 70%; } }
+      width: 60%; } }
+
+.surfers > article {
+  width: 100%; }
 
 @font-face {
   font-family: "glas";
@@ -209,7 +223,9 @@
 .awards {
   font-family: "bahn";
   text-align: center;
-  background-color: #003e44; }
+  background-color: #003e44;
+  padding: 5em 0em;
+  float: left; }
   @media (min-width: 760px) {
     .awards {
       width: 100%;
@@ -296,12 +312,16 @@
   font-family: "bahn";
   src: url("../src/fonts/bahnschrift.ttf"); }
 
-.separador {
-  overflow-x: hidden;
-  width: 100%; }
-
 .contacto {
-  text-align: center; }
+  background-color: #fff;
+  text-align: center;
+  margin-top: 50vh;
+  margin-bottom: 10vh;
+  float: left;
+  width: 100%; }
+  @media (min-width: 760px) {
+    .contacto {
+      margin-bottom: 0vh; } }
 
 .titleContact {
   font-size: 6em;
@@ -309,17 +329,6 @@
   color: #000;
   font-family: "bahn";
   padding: 0.5em 0em; }
-
-.espumaSeparador {
-  max-height: 10vh;
-  position: relative;
-  width: 175%; }
-  @media (min-width: 760px) {
-    .espumaSeparador {
-      max-height: 25vh; } }
-  @media (min-width: 1280px) {
-    .espumaSeparador {
-      max-height: 50vh; } }
 
 .form-case {
   text-align: center;
@@ -356,6 +365,9 @@ footer {
   text-align: center;
   width: 100%;
   float: left; }
+  @media (min-width: 1280px) {
+    footer {
+      margin-bottom: 9vh; } }
 
 footer > div > ul {
   width: 100%;
@@ -371,7 +383,11 @@ footer > div > ul > li {
   background-color: #003e44; }
 
 .brandfooter {
-  margin: 2em; }
+  margin: 2em;
+  width: 20%; }
+
+.fab {
+  font-size: 6em; }
 
 @font-face {
   font-family: "glas";
@@ -392,7 +408,8 @@ footer > div > ul > li {
   display: none; }
   @media (min-width: 1280px) {
     .nav {
-      display: block; } }
+      display: block;
+      z-index: 2; } }
 
 .nav > .ul {
   list-style: none; }
@@ -404,14 +421,17 @@ footer > div > ul > li {
   padding: 5vh 0vh;
   float: left;
   list-style: none;
-  width: 20%;
-  z-index: 1; }
+  width: 20%; }
 
 body {
   margin: 0;
   font-family: "bahn";
   width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-image: url("../src/images/separador.jpg");
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-repeat: no-repeat; }
 
 html {
   zoom: 0.4; }

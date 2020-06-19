@@ -6,11 +6,18 @@
 @import "components/Contacto";
 @import "components/Footer";
 @import "components/Nav";
+
 body {
   margin: 0;
   font-family: "bahn";
   width: 100%;
   overflow-x: hidden;
+  background: {
+    image: url("../src/images/separador.jpg");
+    attachment: fixed;
+    size: auto 100%;
+    repeat: no-repeat;
+  }
 }
 
 html {

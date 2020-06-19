@@ -4,13 +4,22 @@
   background : {
     image: url("../src/images/bkolas.jpg");
     size: auto 100%;
+    repeat: no-reapeat;
   }
   font-family: "bahn";
   text-shadow: 0px 0px 1em #000;
   text-align: center;
   padding: 3em 5em;
   color: #fff;
+  float: left;
   @media (min-width: 760px) {
+    background: {
+      size: 100% 100%;
+    }
+    padding: 10vw 30vw;
+    float: left;
+  }
+  @media (min-width: 1280px) {
     background: {
       size: 100%;
     }
@@ -28,6 +37,7 @@
   font-size: 3.5em;
   @media (min-width: 760px) {
     margin: 0px;
+    padding-right: 30%;
   }
 }
 
@@ -45,13 +55,13 @@
   font-size: 2.5em;
   @media (min-width: 760px) {
     float: right;
-    width: 70%;
+    width: 60%;
   }
   @media (min-width: 1280px) {
     padding-left: 30%;
     box-sizing: border-box;
     float: left;
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -61,6 +71,7 @@
   font-size: 3.5em;
   @media (min-width: 760px) {
     margin: 0px;
+    padding-right: 50%;
   }
 }
 
@@ -72,9 +83,8 @@
     float: left;
   }
   @media (min-width: 1280px) {
-    width: 100%;
     width: 20%;
-    float: right;
+    float: left;
   }
 }
 
@@ -85,12 +95,17 @@
   font-size: 2.5em;
   @media (min-width: 760px) {
     float: left;
-    width: 70%;
+    padding-right: 0;
+    width: 60%;
   }
   @media (min-width: 1280px) {
-    padding-left: 30%;
+    padding-left: 10%;
     box-sizing: border-box;
     float: left;
-    width: 70%;
+    width: 60%;
   }
+}
+
+.surfers > article {
+  width: 100%;
 }
